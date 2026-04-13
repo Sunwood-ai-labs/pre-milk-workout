@@ -2,7 +2,7 @@
 
 ## Composition registry
 
-The project registers five compositions in `remotion-app/src/Root.jsx`.
+The project registers six compositions in `remotion-app/src/Root.jsx`.
 
 | Composition ID | Theme file | Output slug |
 | --- | --- | --- |
@@ -11,6 +11,7 @@ The project registers five compositions in `remotion-app/src/Root.jsx`.
 | `PreMilkWorkoutStickerAlbum` | `Variant03StickerAlbum.jsx` | `03-sticker-album` |
 | `PreMilkWorkoutStorybookRibbon` | `Variant04StorybookRibbon.jsx` | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | `Variant05ToyCatalog.jsx` | `05-toy-catalog` |
+| `PreMilkWorkoutBubbleParade` | `Variant06BubbleParade.jsx` | `06-bubble-parade` |
 
 ## Single render
 

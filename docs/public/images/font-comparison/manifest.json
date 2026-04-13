@@ -1,0 +1,79 @@
+{
+  "frame": 90,
+  "generatedAtLocal": "2026-04-13T06:59:33.749Z",
+  "outputs": [
+    {
+      "fontKey": "pop-bold",
+      "fontWeight": 700,
+      "github": "System / existing fallback stack",
+      "notes": "Current baseline. Soft but not especially thick.",
+      "roundness": "Medium",
+      "slug": "00-current-system",
+      "title": "Current system",
+      "frame": 90,
+      "image": "docs/public/images/font-comparison/00-current-system.jpg",
+      "outputPath": "D:\\Prj\\pre-milk-workout\\docs\\public\\images\\font-comparison\\00-current-system.jpg"
+    },
+    {
+      "fontKey": "zen-black",
+      "fontWeight": 900,
+      "github": "https://github.com/googlefonts/zen-marugothic",
+      "notes": "Balanced and readable. Rounded, but still fairly tidy.",
+      "roundness": "High",
+      "slug": "01-zen-maru-black",
+      "title": "Zen Maru Gothic Black",
+      "frame": 90,
+      "image": "docs/public/images/font-comparison/01-zen-maru-black.jpg",
+      "outputPath": "D:\\Prj\\pre-milk-workout\\docs\\public\\images\\font-comparison\\01-zen-maru-black.jpg"
+    },
+    {
+      "fontKey": "hachi-pop",
+      "fontWeight": 400,
+      "github": "https://github.com/noriokanisawa/HachiMaruPop",
+      "notes": "Cute retro rounded style. Strong personality, a bit lighter than Mochiy.",
+      "roundness": "Very high",
+      "slug": "02-hachi-maru-pop",
+      "title": "Hachi Maru Pop",
+      "frame": 90,
+      "image": "docs/public/images/font-comparison/02-hachi-maru-pop.jpg",
+      "outputPath": "D:\\Prj\\pre-milk-workout\\docs\\public\\images\\font-comparison\\02-hachi-maru-pop.jpg"
+    },
+    {
+      "fontKey": "mochiy-pop",
+      "fontWeight": 400,
+      "github": "https://github.com/fontdasu/Mochiypop",
+      "notes": "The thickest and most marshmallow-like option. Strong POP feeling.",
+      "roundness": "Very high",
+      "slug": "03-mochiy-pop-one",
+      "title": "Mochiy Pop One",
+      "frame": 90,
+      "image": "docs/public/images/font-comparison/03-mochiy-pop-one.jpg",
+      "outputPath": "D:\\Prj\\pre-milk-workout\\docs\\public\\images\\font-comparison\\03-mochiy-pop-one.jpg"
+    },
+    {
+      "fontKey": "mochiy-pop-p",
+      "fontWeight": 400,
+      "github": "https://github.com/fontdasu/Mochiypop",
+      "notes": "Close to Mochiy Pop One, but a little neater and more poster-like.",
+      "roundness": "Very high",
+      "slug": "04-mochiy-pop-p-one",
+      "title": "Mochiy Pop P One",
+      "frame": 90,
+      "image": "docs/public/images/font-comparison/04-mochiy-pop-p-one.jpg",
+      "outputPath": "D:\\Prj\\pre-milk-workout\\docs\\public\\images\\font-comparison\\04-mochiy-pop-p-one.jpg"
+    },
+    {
+      "fontKey": "yusei-magic",
+      "fontWeight": 400,
+      "github": "https://github.com/tanukifont/YuseiMagic",
+      "notes": "Extremely bold marker style. Thick, but less rounded than the others.",
+      "roundness": "Medium",
+      "slug": "05-yusei-magic",
+      "title": "Yusei Magic",
+      "frame": 90,
+      "image": "docs/public/images/font-comparison/05-yusei-magic.jpg",
+      "outputPath": "D:\\Prj\\pre-milk-workout\\docs\\public\\images\\font-comparison\\05-yusei-magic.jpg"
+    }
+  ],
+  "versionTag": "font-compare-20260413"
+}

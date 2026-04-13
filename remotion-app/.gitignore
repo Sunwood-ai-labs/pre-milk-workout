@@ -1,5 +1,8 @@
 node_modules/
 out/
-public/
+public/*
+!public/fonts/
+!public/fonts/**
+public/video.mp4
 src/generated/
 design-snapshots/

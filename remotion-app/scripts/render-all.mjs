@@ -26,6 +26,7 @@ const variants = [
   {id: "PreMilkWorkoutStickerAlbum", slug: "03-sticker-album"},
   {id: "PreMilkWorkoutStorybookRibbon", slug: "04-storybook-ribbon"},
   {id: "PreMilkWorkoutToyCatalog", slug: "05-toy-catalog"},
+  {id: "PreMilkWorkoutBubbleParade", slug: "06-bubble-parade"},
 ];
 
 await mkdir(renderDir, {recursive: true});

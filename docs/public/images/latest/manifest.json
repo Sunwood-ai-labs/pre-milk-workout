@@ -1,6 +1,6 @@
 {
-  "versionTag": "v20260413-134900-perchar-vivid",
-  "generatedAtLocal": "2026-04-13T05:37:58.134Z",
+  "versionTag": "v20260413-154900-bubble-parade-v3",
+  "generatedAtLocal": "2026-04-13T06:10:00.000Z",
   "snapshots": [
     {
       "compositionId": "PreMilkWorkoutPopMotion",
@@ -31,6 +31,12 @@
       "creditImage": "05-toy-catalog__credit.jpg",
       "slug": "05-toy-catalog",
       "titleImage": "05-toy-catalog__title.jpg"
+    },
+    {
+      "compositionId": "PreMilkWorkoutBubbleParade",
+      "creditImage": "06-bubble-parade__credit.jpg",
+      "slug": "06-bubble-parade",
+      "titleImage": "06-bubble-parade__title.jpg"
     }
   ]
 }

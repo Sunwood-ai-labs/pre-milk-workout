@@ -23,7 +23,7 @@
 
 ## ✨ Overview
 
-`pre-milk-workout` packages a small Remotion workspace for building playful title and credit overlays on top of a source performance video. The project currently ships five visual variants, asset-prep scripts for syncing the source video into the app, and render scripts for both single-output and versioned batch rendering.
+`pre-milk-workout` packages a small Remotion workspace for building playful title and credit overlays on top of a source performance video. The project currently ships six visual variants, asset-prep scripts for syncing the source video into the app, and render scripts for both single-output and versioned batch rendering.
 
 ## 🚀 Quick Start
 
@@ -60,14 +60,15 @@ npm run render:all
 | `PreMilkWorkoutStickerAlbum` | Sticker album | `03-sticker-album` |
 | `PreMilkWorkoutStorybookRibbon` | Storybook ribbon | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | Toy catalog | `05-toy-catalog` |
+| `PreMilkWorkoutBubbleParade` | Bubble parade | `06-bubble-parade` |
 
 ## 🖼️ Latest Preview Assets
 
 Latest documented preview set:
 
-- version tag: `v20260413-134900-perchar-vivid`
-- render outputs: `renders/versions/v20260413-134900-perchar-vivid/`
-- generated thumbs: `renders/versions/v20260413-134900-perchar-vivid/thumbs/`
+- version tag: `v20260413-154900-bubble-parade-v3`
+- render outputs: `renders/versions/v20260413-154900-bubble-parade-v3/`
+- generated thumbs: `renders/versions/v20260413-154900-bubble-parade-v3/`
 - docs-published thumbs: `docs/public/images/latest/`
 
 Each variant now has both:

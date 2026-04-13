@@ -58,4 +58,24 @@ await writeFile(
   "utf8",
 );
 
+await writeFile(
+  path.join(renderDir, "manifest.json"),
+  JSON.stringify(
+    {
+      versionTag,
+      renderedAtLocal: new Date().toISOString(),
+      outputs: [
+        {
+          compositionId,
+          filename,
+          path: outputPath,
+        },
+      ],
+    },
+    null,
+    2,
+  ) + "\n",
+  "utf8",
+);
+
 console.log(`[render-single] Done: ${outputPath}`);

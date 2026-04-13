@@ -3,32 +3,32 @@ layout: home
 
 hero:
   name: pre-milk-workout
-  text: Remotion で組むポップモーション演出ワークフロー
-  tagline: 5 種類の composition、asset 準備の自動化、Windows 前提の render スクリプトをまとめた公開 docs です。
+  text: Japanese guide for the Remotion pop-motion workflow
+  tagline: Six composition variants, asset prep, and Windows-friendly render steps for this project.
   image:
     src: /brand/pre-milk-workout-icon.svg
     alt: pre-milk-workout icon
   actions:
     - theme: brand
-      text: はじめに
+      text: Getting Started
       link: /ja/guide/getting-started
     - theme: alt
-      text: ワークフロー
+      text: Workflow
       link: /ja/guide/workflow
     - theme: alt
       text: English
       link: /
 
 features:
-  - title: 5 つのビジュアル差分
-    details: Character sheet、milk bottle label、sticker album、storybook ribbon、toy catalog の 5 系統を 1 つの Remotion root に登録しています。
-  - title: preview 前の asset 準備
-    details: 元動画を `public/` に同期し、composition 用のメタデータを再生成してから preview / render に入れます。
-  - title: 版管理つき render 出力
-    details: 一括 render は `renders/versions/` に版タグつきで出力されるので、比較や整理がしやすい構成です。
+  - title: Six visual variants
+    details: Character sheet, milk bottle label, sticker album, storybook ribbon, toy catalog, and bubble parade are all available in one Remotion root.
+  - title: Asset prep before preview
+    details: The source video is synced into `public/` and composition metadata is regenerated before preview or render.
+  - title: Versioned render output
+    details: Stable folders under `renders/versions/` make visual iteration easy to compare.
 ---
 
-## プレビュー
+## Preview Frames
 
 <div class="preview-grid">
   <figure class="preview-card">
@@ -51,9 +51,13 @@ features:
     <img src="/images/latest/05-toy-catalog__title.jpg" alt="Toy catalog title frame" />
     <figcaption>Variant 05: Toy catalog</figcaption>
   </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/06-bubble-parade__title.jpg" alt="Bubble parade title frame" />
+    <figcaption>Variant 06: Bubble parade</figcaption>
+  </figure>
 </div>
 
-## クレジット画像
+## Credit Frames
 
 <div class="preview-grid">
   <figure class="preview-card">
@@ -76,15 +80,19 @@ features:
     <img src="/images/latest/05-toy-catalog__credit.jpg" alt="Toy catalog credit frame" />
     <figcaption>Variant 05 credit</figcaption>
   </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/06-bubble-parade__credit.jpg" alt="Bubble parade credit frame" />
+    <figcaption>Variant 06 credit</figcaption>
+  </figure>
 </div>
 
 <div class="hero-callout">
-  元動画そのものは repository には含めていません。preview や render の前に repository ルートへ <code>video.mp4</code> を置いてください。
+  The source video itself is not stored in the repository. Place <code>video.mp4</code> at the repository root before preview or render.
 </div>
 
-## ドキュメント案内
+## Documentation Map
 
-- [はじめに](/ja/guide/getting-started): セットアップ、必要ファイル、最初の preview。
-- [ワークフロー](/ja/guide/workflow): composition ID、render コマンド、出力ルール。
-- [構成](/ja/guide/architecture): Remotion root、スクリプト、生成メタデータの関係。
-- [トラブルシュート](/ja/guide/troubleshooting): よくある詰まりどころ。
+- [Getting Started](/ja/guide/getting-started): setup, required files, and first preview.
+- [Workflow](/ja/guide/workflow): composition IDs, render commands, and output conventions.
+- [Architecture](/ja/guide/architecture): how the Remotion root, scripts, and generated metadata fit together.
+- [Troubleshooting](/ja/guide/troubleshooting): common setup and render issues.

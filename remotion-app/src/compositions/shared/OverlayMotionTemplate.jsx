@@ -12,9 +12,16 @@ import {Video} from "@remotion/media";
 import {
   BASE_CREDIT_SECTIONS,
   clamp,
+  FONT_DISPLAY_HACHI_POP,
+  FONT_DISPLAY_MOCHIY_POP,
+  FONT_DISPLAY_MOCHIY_POP_P,
+  FONT_DISPLAY_YUSEI_MAGIC,
   FONT_DISPLAY_POP,
   FONT_DISPLAY_POP_BOLD,
   FONT_UI,
+  FONT_ZEN_MARU_BLACK,
+  FONT_ZEN_MARU,
+  FONT_ZEN_MARU_BOLD,
   MOTION_TITLE,
 } from "./overlay-content.jsx";
 
@@ -96,8 +103,36 @@ const getAlignStyle = (align) => {
 };
 
 const getFontFamily = (fontKey) => {
+  if (fontKey === "hachi-pop") {
+    return FONT_DISPLAY_HACHI_POP;
+  }
+
+  if (fontKey === "mochiy-pop") {
+    return FONT_DISPLAY_MOCHIY_POP;
+  }
+
+  if (fontKey === "mochiy-pop-p") {
+    return FONT_DISPLAY_MOCHIY_POP_P;
+  }
+
+  if (fontKey === "yusei-magic") {
+    return FONT_DISPLAY_YUSEI_MAGIC;
+  }
+
   if (fontKey === "pop-bold") {
     return FONT_DISPLAY_POP_BOLD;
+  }
+
+  if (fontKey === "zen-bold") {
+    return FONT_ZEN_MARU_BOLD;
+  }
+
+  if (fontKey === "zen-black") {
+    return FONT_ZEN_MARU_BLACK;
+  }
+
+  if (fontKey === "zen") {
+    return FONT_ZEN_MARU;
   }
 
   if (fontKey === "ui") {
@@ -630,11 +665,31 @@ export const OverlayMotionTemplate = ({theme, videoMetadata, videoSrc}) => {
   );
 };
 
+const mergeTheme = (baseTheme, themeOverride = {}) => {
+  if (!themeOverride) {
+    return baseTheme;
+  }
+
+  return {
+    ...baseTheme,
+    ...themeOverride,
+    credit: {
+      ...baseTheme.credit,
+      ...(themeOverride.credit ?? {}),
+    },
+    title: {
+      ...baseTheme.title,
+      ...(themeOverride.title ?? {}),
+    },
+  };
+};
+
 export const createOverlayMotionVariant = (theme) => {
-  const VariantComponent = ({videoMetadata, videoSrc}) => {
+  const VariantComponent = ({themeOverride, videoMetadata, videoSrc}) => {
+    const resolvedTheme = mergeTheme(theme, themeOverride);
     return (
       <OverlayMotionTemplate
-        theme={theme}
+        theme={resolvedTheme}
         videoMetadata={videoMetadata}
         videoSrc={videoSrc}
       />

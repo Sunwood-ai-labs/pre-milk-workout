@@ -60,14 +60,15 @@ npm run render:all
 | `PreMilkWorkoutStickerAlbum` | Sticker album | `03-sticker-album` |
 | `PreMilkWorkoutStorybookRibbon` | Storybook ribbon | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | Toy catalog | `05-toy-catalog` |
+| `PreMilkWorkoutBubbleParade` | Bubble parade | `06-bubble-parade` |
 
 ## 🖼️ 最新サムネイル
 
 現在 docs で参照している最新サムネイルセット:
 
-- 版タグ: `v20260413-134900-perchar-vivid`
-- render 出力: `renders/versions/v20260413-134900-perchar-vivid/`
-- 生成サムネイル: `renders/versions/v20260413-134900-perchar-vivid/thumbs/`
+- 版タグ: `v20260413-154900-bubble-parade-v3`
+- render 出力: `renders/versions/v20260413-154900-bubble-parade-v3/`
+- 生成サムネイル: `renders/versions/v20260413-154900-bubble-parade-v3/thumbs/`
 - docs 公開用サムネイル: `docs/public/images/latest/`
 
 各バリエーションごとに次の 2 種類を生成しています。
