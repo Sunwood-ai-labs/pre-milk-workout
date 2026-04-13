@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">pre-milk-workout icon</title>
+  <desc id="desc">A rounded badge with a stylized milk bottle, motion lines, and a spark.</desc>
+  <rect width="256" height="256" rx="56" fill="#FFF7EC"/>
+  <rect x="24" y="24" width="208" height="208" rx="48" fill="#F9E4B8"/>
+  <rect x="36" y="36" width="184" height="184" rx="40" fill="#FFFDF8"/>
+  <path d="M58 148c20-32 47-54 83-66l12 24c-28 8-49 22-67 45l-28-3Z" fill="#F5C879"/>
+  <path d="M76 163c16-23 34-39 61-49l9 19c-22 7-38 19-52 38l-18-8Z" fill="#8FC4F1"/>
+  <path d="M132 60c10 0 18 8 18 18v13h8c10 0 18 8 18 18v56c0 25-20 45-45 45h-6c-25 0-45-20-45-45v-56c0-10 8-18 18-18h8V78c0-10 8-18 18-18h8Z" fill="#3E7CA8"/>
+  <path d="M121 77c0-3 2-5 5-5h4c3 0 5 2 5 5v14h-14V77Z" fill="#FFF7EC"/>
+  <path d="M98 111c0-3 2-5 5-5h50c3 0 5 2 5 5v49c0 16-13 29-29 29s-31-13-31-29v-49Z" fill="#FFF7EC"/>
+  <path d="M143 129l-27 16 27 16v-32Z" fill="#F09AA8"/>
+  <circle cx="183" cy="83" r="11" fill="#A9DFC2"/>
+  <path d="M183 61v11M183 94v11M161 83h11M194 83h11" stroke="#6AAE88" stroke-linecap="round" stroke-width="8"/>
+</svg>

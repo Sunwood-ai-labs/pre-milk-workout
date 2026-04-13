@@ -1,6 +1,9 @@
 /video.mp4
 /video_lyric_motion.mp4
 /renders/
+/docs/node_modules/
+/docs/.vitepress/cache/
+/docs/.vitepress/dist/
 
 # OS / editor noise
 Thumbs.db
