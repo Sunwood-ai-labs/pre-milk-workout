@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="./docs/public/brand/pre-milk-workout-icon.svg" width="108" alt="pre-milk-workout icon" />
   <h1>pre-milk-workout</h1>
   <p><strong>Remotion pop-motion overlays for a stylized workout video project.</strong></p>
   <p>
@@ -18,7 +17,7 @@
     |
     <a href="https://github.com/Sunwood-ai-labs/pre-milk-workout">Repository</a>
   </p>
-  <img src="./docs/public/images/latest/01-character-sheet__title.jpg" width="900" alt="Latest title preview frame from the pre-milk-workout Remotion project" />
+  <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="900" alt="Candy Marquee Concept header preview for the pre-milk-workout project" />
 </div>
 
 ## ✨ Overview
@@ -152,3 +151,7 @@ Top font candidates:
 | Mochiy Pop One | <img src="./docs/public/images/font-comparison/03-mochiy-pop-one.jpg" width="260" alt="Mochiy Pop One font comparison still" /> | Very high | Thickest and roundest option. Strongest POP energy. |
 | Mochiy Pop P One | <img src="./docs/public/images/font-comparison/04-mochiy-pop-p-one.jpg" width="260" alt="Mochiy Pop P One font comparison still" /> | Very high | Close to Mochiy Pop One, but a touch neater and sharper. |
 | Yusei Magic | <img src="./docs/public/images/font-comparison/05-yusei-magic.jpg" width="260" alt="Yusei Magic font comparison still" /> | Medium | Bold marker style. Thick, but less rounded. |
+
+<div align="center">
+  <img src="./docs/public/brand/pre-milk-workout-icon.svg" width="108" alt="pre-milk-workout footer icon" />
+</div>

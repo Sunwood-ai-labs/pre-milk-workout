@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="./docs/public/brand/pre-milk-workout-icon.svg" width="108" alt="pre-milk-workout icon" />
   <h1>pre-milk-workout</h1>
   <p><strong>Remotion でワークアウト動画向けのポップなタイトル演出とクレジット演出を組み立てる公開ワークスペースです。</strong></p>
   <p>
@@ -18,7 +17,7 @@
     ·
     <a href="https://github.com/Sunwood-ai-labs/pre-milk-workout">Repository</a>
   </p>
-  <img src="./docs/public/images/latest/01-character-sheet__title.jpg" width="900" alt="pre-milk-workout 最新タイトルプレビュー" />
+  <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="900" alt="pre-milk-workout header preview" />
 </div>
 
 ## ✨ 概要
@@ -140,3 +139,7 @@ Top font candidates:
 | --- | --- | --- | --- |
 | `PreMilkWorkoutBubbleParade` | <img src="./docs/public/images/latest/06-bubble-parade__title.jpg" width="260" alt="Bubble Parade title preview" /> | <img src="./docs/public/images/latest/06-bubble-parade__credit.jpg" width="260" alt="Bubble Parade credit preview" /> | Current rounded-pop baseline. |
 | `PreMilkWorkoutCandyMarqueeConcept` | <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="260" alt="Candy Marquee Concept title preview" /> | <img src="./docs/public/images/latest/07-candy-marquee-concept__credit.jpg" width="260" alt="Candy Marquee Concept credit preview" /> | Stronger signboard-style concept with a candy marquee panel. |
+
+<div align="center">
+  <img src="./docs/public/brand/pre-milk-workout-icon.svg" width="108" alt="pre-milk-workout footer icon" />
+</div>
