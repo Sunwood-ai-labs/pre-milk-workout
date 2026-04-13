@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="900" alt="Candy Marquee Concept header preview for the pre-milk-workout project" />
   <h1>pre-milk-workout</h1>
   <p><strong>Remotion pop-motion overlays for a stylized workout video project.</strong></p>
   <p>
@@ -17,7 +18,6 @@
     |
     <a href="https://github.com/Sunwood-ai-labs/pre-milk-workout">Repository</a>
   </p>
-  <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="900" alt="Candy Marquee Concept header preview for the pre-milk-workout project" />
 </div>
 
 ## ✨ Overview
