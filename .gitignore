@@ -1,0 +1,7 @@
+/video.mp4
+/video_lyric_motion.mp4
+/renders/
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
