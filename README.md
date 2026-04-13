@@ -68,7 +68,7 @@ Latest documented preview set:
 
 - version tag: `v20260413-154900-bubble-parade-v3`
 - render outputs: `renders/versions/v20260413-154900-bubble-parade-v3/`
-- generated thumbs: `renders/versions/v20260413-154900-bubble-parade-v3/`
+- generated thumbs: `renders/versions/v20260413-154900-bubble-parade-v3/thumbs/`
 - docs-published thumbs: `docs/public/images/latest/`
 - concept still tag: `v20260413-173100-candy-marquee`
 

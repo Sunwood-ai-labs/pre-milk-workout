@@ -76,7 +76,7 @@ npm run render:all
 
 - `__title.jpg`: `00:00:03` 前後のタイトル画像
 - `__credit.jpg`: `00:00:51` 前後のクレジット画像
-Latest docs set also includes:
+現在の docs セットには、次の concept still も含まれます。
 
 - `07-candy-marquee-concept__title.jpg`
 - `07-candy-marquee-concept__credit.jpg`
@@ -107,19 +107,19 @@ Latest docs set also includes:
 
 このリポジトリは [MIT License](./LICENSE) で公開しています。
 
-## Font Comparison
+## フォント比較
 
 比較表だけでなく、README 上でも画像プレビューを直接見られるようにしています。詳細は [FONT_COMPARISON.md](./FONT_COMPARISON.md) と [docs/guide/font-comparison.md](./docs/guide/font-comparison.md) を参照してください。
 
-Candy Marquee Concept title:
+Candy Marquee Concept のタイトル:
 
 ![Candy Marquee Concept Title](./docs/public/images/latest/07-candy-marquee-concept__title.jpg)
 
-Candy Marquee Concept credit:
+Candy Marquee Concept のクレジット:
 
 ![Candy Marquee Concept Credit](./docs/public/images/latest/07-candy-marquee-concept__credit.jpg)
 
-Top font candidates:
+上位候補フォント:
 
 `Mochiy Pop One`
 
@@ -133,12 +133,12 @@ Top font candidates:
 
 ![Hachi Maru Pop Preview](./docs/public/images/font-comparison/02-hachi-maru-pop.jpg)
 
-### Concept Preview Table
+### コンセプト比較表
 
-| Variant | Title Preview | Credit Preview | Notes |
+| バリアント | タイトルプレビュー | クレジットプレビュー | メモ |
 | --- | --- | --- | --- |
-| `PreMilkWorkoutBubbleParade` | <img src="./docs/public/images/latest/06-bubble-parade__title.jpg" width="260" alt="Bubble Parade title preview" /> | <img src="./docs/public/images/latest/06-bubble-parade__credit.jpg" width="260" alt="Bubble Parade credit preview" /> | Current rounded-pop baseline. |
-| `PreMilkWorkoutCandyMarqueeConcept` | <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="260" alt="Candy Marquee Concept title preview" /> | <img src="./docs/public/images/latest/07-candy-marquee-concept__credit.jpg" width="260" alt="Candy Marquee Concept credit preview" /> | Stronger signboard-style concept with a candy marquee panel. |
+| `PreMilkWorkoutBubbleParade` | <img src="./docs/public/images/latest/06-bubble-parade__title.jpg" width="260" alt="Bubble Parade title preview" /> | <img src="./docs/public/images/latest/06-bubble-parade__credit.jpg" width="260" alt="Bubble Parade credit preview" /> | 現在の丸み強めな基準案です。 |
+| `PreMilkWorkoutCandyMarqueeConcept` | <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="260" alt="Candy Marquee Concept title preview" /> | <img src="./docs/public/images/latest/07-candy-marquee-concept__credit.jpg" width="260" alt="Candy Marquee Concept credit preview" /> | キャンディ看板らしさを強めた派手めの別案です。 |
 
 <div align="center">
   <img src="./docs/public/brand/pre-milk-workout-icon.svg" width="108" alt="pre-milk-workout footer icon" />

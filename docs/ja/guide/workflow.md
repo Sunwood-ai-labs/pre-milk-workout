@@ -2,7 +2,7 @@
 
 ## Composition 登録
 
-このプロジェクトでは `remotion-app/src/Root.jsx` に 5 つの composition を登録しています。
+このプロジェクトでは `remotion-app/src/Root.jsx` に 7 つの composition を登録しています。
 
 | Composition ID | テーマファイル | 出力 slug |
 | --- | --- | --- |

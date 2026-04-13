@@ -2,6 +2,8 @@ import {defineConfig} from "vitepress";
 
 const repoUrl = "https://github.com/Sunwood-ai-labs/pre-milk-workout";
 const pagesUrl = "https://sunwood-ai-labs.github.io/pre-milk-workout/";
+const siteBase = "/pre-milk-workout/";
+const iconHref = `${siteBase}brand/pre-milk-workout-icon.svg`;
 
 const englishSidebar = [
   {
@@ -9,6 +11,7 @@ const englishSidebar = [
     items: [
       {text: "Getting Started", link: "/guide/getting-started"},
       {text: "Workflow", link: "/guide/workflow"},
+      {text: "Font Comparison", link: "/guide/font-comparison"},
       {text: "Architecture", link: "/guide/architecture"},
       {text: "Troubleshooting", link: "/guide/troubleshooting"},
     ],
@@ -21,6 +24,7 @@ const japaneseSidebar = [
     items: [
       {text: "はじめに", link: "/ja/guide/getting-started"},
       {text: "ワークフロー", link: "/ja/guide/workflow"},
+      {text: "フォント比較", link: "/ja/guide/font-comparison"},
       {text: "構成", link: "/ja/guide/architecture"},
       {text: "トラブルシュート", link: "/ja/guide/troubleshooting"},
     ],
@@ -30,11 +34,11 @@ const japaneseSidebar = [
 export default defineConfig({
   title: "pre-milk-workout",
   description: "Remotion pop-motion overlays for a stylized workout video workflow.",
-  base: "/pre-milk-workout/",
+  base: siteBase,
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ["link", {rel: "icon", href: "/brand/pre-milk-workout-icon.svg"}],
+    ["link", {rel: "icon", href: iconHref}],
     ["meta", {name: "theme-color", content: "#8fc4f1"}],
   ],
   themeConfig: {

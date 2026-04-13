@@ -16,12 +16,12 @@
 
 | フォント | プレビュー | 丸み | メモ | GitHub |
 | --- | --- | --- | --- | --- |
-| Current system | <img src="/images/font-comparison/00-current-system.jpg" width="320" alt="現行システムフォントの比較画像" /> | 中 | 現在の基準案です。やわらかい印象ですが、特別に太くはありません。 | 既存システム / fallback stack |
-| Zen Maru Gothic Black | <img src="/images/font-comparison/01-zen-maru-black.jpg" width="320" alt="Zen Maru Gothic Black の比較画像" /> | 高 | きれいで読みやすい一方、POP 候補よりはマシュマロ感が弱めです。 | [link](https://github.com/googlefonts/zen-marugothic) |
-| Hachi Maru Pop | <img src="/images/font-comparison/02-hachi-maru-pop.jpg" width="320" alt="Hachi Maru Pop の比較画像" /> | とても高い | レトロでかわいく、軽やかな丸みがあります。 | [link](https://github.com/noriokanisawa/HachiMaruPop) |
-| Mochiy Pop One | <img src="/images/font-comparison/03-mochiy-pop-one.jpg" width="320" alt="Mochiy Pop One の比較画像" /> | とても高い | もっとも太く、もっとも丸い候補です。POP 感も最強です。 | [link](https://github.com/fontdasu/Mochiypop) |
-| Mochiy Pop P One | <img src="/images/font-comparison/04-mochiy-pop-p-one.jpg" width="320" alt="Mochiy Pop P One の比較画像" /> | とても高い | Mochiy Pop One に近い印象で、少しだけ整ってシャープです。 | [link](https://github.com/fontdasu/Mochiypop) |
-| Yusei Magic | <img src="/images/font-comparison/05-yusei-magic.jpg" width="320" alt="Yusei Magic の比較画像" /> | 中 | 太いマーカーペン風で、迫力はあるものの丸みは控えめです。 | [link](https://github.com/tanukifont/YuseiMagic) |
+| 現行システム | <img src="/images/font-comparison/00-current-system.jpg" width="320" alt="現行システムフォントの比較画像" /> | 中 | 現在の基準案です。やわらかい印象ですが、特別に太くはありません。 | 既存システム / fallback stack |
+| Zen Maru Gothic Black | <img src="/images/font-comparison/01-zen-maru-black.jpg" width="320" alt="Zen Maru Gothic Black の比較画像" /> | 高 | きれいで読みやすい一方、POP 候補よりはマシュマロ感が弱めです。 | [リンク](https://github.com/googlefonts/zen-marugothic) |
+| Hachi Maru Pop | <img src="/images/font-comparison/02-hachi-maru-pop.jpg" width="320" alt="Hachi Maru Pop の比較画像" /> | とても高い | レトロでかわいく、軽やかな丸みがあります。 | [リンク](https://github.com/noriokanisawa/HachiMaruPop) |
+| Mochiy Pop One | <img src="/images/font-comparison/03-mochiy-pop-one.jpg" width="320" alt="Mochiy Pop One の比較画像" /> | とても高い | もっとも太く、もっとも丸い候補です。POP 感も最強です。 | [リンク](https://github.com/fontdasu/Mochiypop) |
+| Mochiy Pop P One | <img src="/images/font-comparison/04-mochiy-pop-p-one.jpg" width="320" alt="Mochiy Pop P One の比較画像" /> | とても高い | Mochiy Pop One に近い印象で、少しだけ整ってシャープです。 | [リンク](https://github.com/fontdasu/Mochiypop) |
+| Yusei Magic | <img src="/images/font-comparison/05-yusei-magic.jpg" width="320" alt="Yusei Magic の比較画像" /> | 中 | 太いマーカーペン風で、迫力はあるものの丸みは控えめです。 | [リンク](https://github.com/tanukifont/YuseiMagic) |
 
 ## 現時点の見立て
 
