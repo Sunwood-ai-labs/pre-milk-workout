@@ -27,6 +27,7 @@ const variants = [
   {id: "PreMilkWorkoutStorybookRibbon", slug: "04-storybook-ribbon"},
   {id: "PreMilkWorkoutToyCatalog", slug: "05-toy-catalog"},
   {id: "PreMilkWorkoutBubbleParade", slug: "06-bubble-parade"},
+  {id: "PreMilkWorkoutCandyMarqueeConcept", slug: "07-candy-marquee-concept"},
 ];
 
 await mkdir(renderDir, {recursive: true});

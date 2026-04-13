@@ -12,6 +12,7 @@
 | `PreMilkWorkoutStorybookRibbon` | `Variant04StorybookRibbon.jsx` | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | `Variant05ToyCatalog.jsx` | `05-toy-catalog` |
 | `PreMilkWorkoutBubbleParade` | `Variant06BubbleParade.jsx` | `06-bubble-parade` |
+| `PreMilkWorkoutCandyMarqueeConcept` | `Variant07CandyMarqueeConcept.jsx` | `07-candy-marquee-concept` |
 
 ## 単体 render
 

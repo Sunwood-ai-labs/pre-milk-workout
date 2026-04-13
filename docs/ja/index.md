@@ -4,7 +4,7 @@ layout: home
 hero:
   name: pre-milk-workout
   text: Japanese guide for the Remotion pop-motion workflow
-  tagline: Six composition variants, asset prep, and Windows-friendly render steps for this project.
+  tagline: Seven composition variants, asset prep, and Windows-friendly render steps for this project.
   image:
     src: /brand/pre-milk-workout-icon.svg
     alt: pre-milk-workout icon
@@ -20,8 +20,8 @@ hero:
       link: /
 
 features:
-  - title: Six visual variants
-    details: Character sheet, milk bottle label, sticker album, storybook ribbon, toy catalog, and bubble parade are all available in one Remotion root.
+  - title: Seven visual variants
+    details: Character sheet, milk bottle label, sticker album, storybook ribbon, toy catalog, bubble parade, and candy marquee concept are all available in one Remotion root.
   - title: Asset prep before preview
     details: The source video is synced into `public/` and composition metadata is regenerated before preview or render.
   - title: Versioned render output
@@ -55,6 +55,10 @@ features:
     <img src="/images/latest/06-bubble-parade__title.jpg" alt="Bubble parade title frame" />
     <figcaption>Variant 06: Bubble parade</figcaption>
   </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/07-candy-marquee-concept__title.jpg" alt="Candy marquee concept title frame" />
+    <figcaption>Variant 07: Candy marquee concept</figcaption>
+  </figure>
 </div>
 
 ## Credit Frames
@@ -83,6 +87,10 @@ features:
   <figure class="preview-card">
     <img src="/images/latest/06-bubble-parade__credit.jpg" alt="Bubble parade credit frame" />
     <figcaption>Variant 06 credit</figcaption>
+  </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/07-candy-marquee-concept__credit.jpg" alt="Candy marquee concept credit frame" />
+    <figcaption>Variant 07 credit</figcaption>
   </figure>
 </div>
 

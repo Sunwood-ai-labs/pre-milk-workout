@@ -4,7 +4,7 @@ layout: home
 hero:
   name: pre-milk-workout
   text: Remotion pop-motion overlays for a stylized video workflow
-  tagline: Six composition variants, automated asset prep, and Windows-friendly render scripts for remixing a source performance clip.
+  tagline: Seven composition variants, automated asset prep, and Windows-friendly render scripts for remixing a source performance clip.
   image:
     src: /brand/pre-milk-workout-icon.svg
     alt: pre-milk-workout icon
@@ -20,8 +20,8 @@ hero:
       link: /ja/
 
 features:
-  - title: Six visual variants
-    details: Character sheet, milk bottle label, sticker album, storybook ribbon, toy catalog, and bubble parade layouts are all registered under one Remotion root.
+  - title: Seven visual variants
+    details: Character sheet, milk bottle label, sticker album, storybook ribbon, toy catalog, bubble parade, and candy marquee concept layouts are all registered under one Remotion root.
   - title: Asset prep before preview
     details: A single preparation step syncs the source video into `public/` and regenerates composition metadata before Studio preview or render.
   - title: Versioned render output
@@ -55,6 +55,10 @@ features:
     <img src="/images/latest/06-bubble-parade__title.jpg" alt="Bubble parade title frame" />
     <figcaption>Variant 06: Bubble parade</figcaption>
   </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/07-candy-marquee-concept__title.jpg" alt="Candy marquee concept title frame" />
+    <figcaption>Variant 07: Candy marquee concept</figcaption>
+  </figure>
 </div>
 
 ## Credit frames
@@ -83,6 +87,10 @@ features:
   <figure class="preview-card">
     <img src="/images/latest/06-bubble-parade__credit.jpg" alt="Bubble parade credit frame" />
     <figcaption>Variant 06 credit</figcaption>
+  </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/07-candy-marquee-concept__credit.jpg" alt="Candy marquee concept credit frame" />
+    <figcaption>Variant 07 credit</figcaption>
   </figure>
 </div>
 

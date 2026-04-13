@@ -6,6 +6,7 @@ import {Variant03StickerAlbum} from "./compositions/variants/Variant03StickerAlb
 import {Variant04StorybookRibbon} from "./compositions/variants/Variant04StorybookRibbon.jsx";
 import {Variant05ToyCatalog} from "./compositions/variants/Variant05ToyCatalog.jsx";
 import {Variant06BubbleParade} from "./compositions/variants/Variant06BubbleParade.jsx";
+import {Variant07CandyMarqueeConcept} from "./compositions/variants/Variant07CandyMarqueeConcept.jsx";
 import {videoMetadata} from "./generated/video-metadata.jsx";
 
 export const RemotionRoot = () => {
@@ -50,6 +51,11 @@ export const RemotionRoot = () => {
       <Composition
         id="PreMilkWorkoutBubbleParade"
         component={Variant06BubbleParade}
+        {...sharedProps}
+      />
+      <Composition
+        id="PreMilkWorkoutCandyMarqueeConcept"
+        component={Variant07CandyMarqueeConcept}
         {...sharedProps}
       />
     </>

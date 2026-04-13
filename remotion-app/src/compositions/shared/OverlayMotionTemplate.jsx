@@ -415,6 +415,33 @@ const TitleCard = ({endMs, startMs, theme, videoMetadata}) => {
           WebkitTextStroke: `${theme.title.strokeWidth}px ${theme.title.outlineColor}`,
         };
   const titleCharacters = Array.from(MOTION_TITLE.main);
+  const titleBackdropStyle = theme.title.backdrop
+    ? {
+        alignSelf:
+          theme.title.align === "left"
+            ? "flex-start"
+            : theme.title.align === "right"
+              ? "flex-end"
+              : "center",
+        backdropFilter: theme.title.backdrop.backdropBlur
+          ? `blur(${theme.title.backdrop.backdropBlur}px)`
+          : undefined,
+        background: theme.title.backdrop.background,
+        border: theme.title.backdrop.border,
+        borderRadius: theme.title.backdrop.borderRadius,
+        boxShadow: theme.title.backdrop.shadow,
+        maxWidth: theme.title.backdrop.maxWidth ?? "100%",
+        overflow: "hidden",
+        padding: theme.title.backdrop.padding,
+        position: "relative",
+        transform: theme.title.backdrop.rotateDeg
+          ? `rotate(${theme.title.backdrop.rotateDeg}deg)`
+          : undefined,
+        width: theme.title.backdrop.fitContent ? "fit-content" : "100%",
+      }
+    : {
+        width: "100%",
+      };
 
   return (
     <AbsoluteFill style={{pointerEvents: "none"}}>
@@ -430,94 +457,96 @@ const TitleCard = ({endMs, startMs, theme, videoMetadata}) => {
           width,
         }}
       >
-        {theme.title.kicker ? (
+        <div style={titleBackdropStyle}>
+          {theme.title.kicker ? (
+            <div
+              style={{
+                color: theme.title.kickerColor,
+                fontFamily: getFontFamily(theme.title.kickerFont),
+                fontSize: theme.title.kickerSize,
+                fontWeight: 700,
+                letterSpacing: theme.title.kickerLetterSpacing,
+                lineHeight: 1.2,
+                marginBottom: 10,
+                textShadow: theme.title.kickerShadow,
+              }}
+            >
+              {theme.title.kicker}
+            </div>
+          ) : null}
+          {theme.title.fillMode === "per-character" ? (
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                fontFamily: getFontFamily(theme.title.font),
+                fontSize: titleSize,
+                fontWeight: theme.title.fontWeight,
+                justifyContent: getJustifyContent(theme.title.align),
+                lineHeight: 1.08,
+                maxWidth: "100%",
+                whiteSpace: "pre-wrap",
+                wordBreak: "keep-all",
+                width: "100%",
+              }}
+            >
+              {titleCharacters.map((character, index) => {
+                const palette = theme.title.characterPalette ?? theme.title.decorationColors;
+                const color = palette[index % palette.length];
+                return (
+                  <span
+                    key={`${character}-${index}`}
+                    style={{
+                      WebkitTextStroke: `${theme.title.strokeWidth}px ${theme.title.outlineColor}`,
+                      color,
+                      marginRight: theme.title.characterGap ?? 0,
+                      textShadow: theme.title.shadow,
+                    }}
+                  >
+                    {character === " " ? "\u00A0" : character}
+                  </span>
+                );
+              })}
+            </div>
+          ) : (
+            <div
+              style={{
+                fontFamily: getFontFamily(theme.title.font),
+                fontSize: titleSize,
+                fontWeight: theme.title.fontWeight,
+                letterSpacing: theme.title.letterSpacing,
+                lineHeight: 1.08,
+                textShadow: theme.title.shadow,
+                whiteSpace: "pre-wrap",
+                wordBreak: "keep-all",
+                ...titleTextStyle,
+              }}
+            >
+              {MOTION_TITLE.main}
+            </div>
+          )}
           <div
             style={{
-              color: theme.title.kickerColor,
-              fontFamily: getFontFamily(theme.title.kickerFont),
-              fontSize: theme.title.kickerSize,
+              color: theme.title.subtitleColor,
+              fontFamily: getFontFamily(theme.title.subtitleFont),
+              fontSize: subtitleSize,
               fontWeight: 700,
-              letterSpacing: theme.title.kickerLetterSpacing,
+              letterSpacing: theme.title.subtitleLetterSpacing,
               lineHeight: 1.2,
-              marginBottom: 10,
-              textShadow: theme.title.kickerShadow,
+              marginTop: 8,
+              textShadow: theme.title.subtitleShadow,
             }}
           >
-            {theme.title.kicker}
+            {MOTION_TITLE.sub}
           </div>
-        ) : null}
-        {theme.title.fillMode === "per-character" ? (
           <div
             style={{
-              display: "flex",
-              flexWrap: "wrap",
-              fontFamily: getFontFamily(theme.title.font),
-              fontSize: titleSize,
-              fontWeight: theme.title.fontWeight,
-              justifyContent: getJustifyContent(theme.title.align),
-              lineHeight: 1.08,
-              maxWidth: "100%",
-              whiteSpace: "pre-wrap",
-              wordBreak: "keep-all",
+              marginTop: theme.title.decorationMarginTop,
               width: "100%",
             }}
           >
-            {titleCharacters.map((character, index) => {
-              const palette = theme.title.characterPalette ?? theme.title.decorationColors;
-              const color = palette[index % palette.length];
-              return (
-                <span
-                  key={`${character}-${index}`}
-                  style={{
-                    WebkitTextStroke: `${theme.title.strokeWidth}px ${theme.title.outlineColor}`,
-                    color,
-                    marginRight: theme.title.characterGap ?? 0,
-                    textShadow: theme.title.shadow,
-                  }}
-                >
-                  {character === " " ? "\u00A0" : character}
-                </span>
-              );
-            })}
+            <TitleAccent theme={theme} />
           </div>
-        ) : (
-          <div
-            style={{
-              fontFamily: getFontFamily(theme.title.font),
-              fontSize: titleSize,
-              fontWeight: theme.title.fontWeight,
-              letterSpacing: theme.title.letterSpacing,
-              lineHeight: 1.08,
-              textShadow: theme.title.shadow,
-              whiteSpace: "pre-wrap",
-              wordBreak: "keep-all",
-              ...titleTextStyle,
-            }}
-          >
-            {MOTION_TITLE.main}
-          </div>
-        )}
-        <div
-          style={{
-            color: theme.title.subtitleColor,
-            fontFamily: getFontFamily(theme.title.subtitleFont),
-            fontSize: subtitleSize,
-            fontWeight: 700,
-            letterSpacing: theme.title.subtitleLetterSpacing,
-            lineHeight: 1.2,
-            marginTop: 8,
-            textShadow: theme.title.subtitleShadow,
-          }}
-        >
-          {MOTION_TITLE.sub}
-        </div>
-        <div
-          style={{
-            marginTop: theme.title.decorationMarginTop,
-            width: "100%",
-          }}
-        >
-          <TitleAccent theme={theme} />
         </div>
       </div>
     </AbsoluteFill>
