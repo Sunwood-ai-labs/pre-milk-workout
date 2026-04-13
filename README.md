@@ -109,6 +109,10 @@ The current polish pass verifies:
 - 15-shot prompt experiments and prompt notes: [View the X post](https://x.com/hAru_mAki_ch/status/2043325327393595731)
 - Character-make `Kigurumi Babubabu` prompt: [View the X post](https://x.com/hAru_mAki_ch/status/2043301363585819034)
 
+## Reference Acknowledgement
+
+- The documentation structure and repository presentation were informed by [Sunwood-ai-labs/midnight-memory](https://github.com/Sunwood-ai-labs/midnight-memory).
+
 ## 📝 License
 
 This repository is released under the [MIT License](./LICENSE).

@@ -107,6 +107,10 @@ Title-only comparison stills live in [Font Comparison](/guide/font-comparison). 
 - 15-shot prompt experiments and prompt notes: [View the X post](https://x.com/hAru_mAki_ch/status/2043325327393595731)
 - Character-make `Kigurumi Babubabu` prompt: [View the X post](https://x.com/hAru_mAki_ch/status/2043301363585819034)
 
+## Reference acknowledgement
+
+This documentation structure was informed by [Sunwood-ai-labs/midnight-memory](https://github.com/Sunwood-ai-labs/midnight-memory).
+
 ## Documentation map
 
 - [Getting Started](/guide/getting-started): setup, required files, and first preview.

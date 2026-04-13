@@ -107,6 +107,10 @@ features:
 - 15ショットのプロンプト実験と使用プロンプト: [Xの投稿を見る](https://x.com/hAru_mAki_ch/status/2043325327393595731)
 - キャラクターメイク用「着ぐるみバブバブ」プロンプト: [Xの投稿を見る](https://x.com/hAru_mAki_ch/status/2043301363585819034)
 
+## 参考プロジェクト
+
+このドキュメント構成は [Sunwood-ai-labs/midnight-memory](https://github.com/Sunwood-ai-labs/midnight-memory) を参考にしています。
+
 ## ドキュメントマップ
 
 - [はじめに](/ja/guide/getting-started): 環境構築、必須ファイル、初回プレビューの手順です。

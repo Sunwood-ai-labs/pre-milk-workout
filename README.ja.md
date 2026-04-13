@@ -108,6 +108,10 @@ npm run render:all
 - 15ショットのプロンプト実験と使用プロンプト: [Xの投稿を見る](https://x.com/hAru_mAki_ch/status/2043325327393595731)
 - キャラクターメイク用「着ぐるみバブバブ」プロンプト: [Xの投稿を見る](https://x.com/hAru_mAki_ch/status/2043301363585819034)
 
+## 参考プロジェクト
+
+- ドキュメント構成とリポジトリ整理の参考として [Sunwood-ai-labs/midnight-memory](https://github.com/Sunwood-ai-labs/midnight-memory) を参照しています。
+
 ## 📝 ライセンス
 
 このリポジトリは [MIT License](./LICENSE) で公開しています。
