@@ -104,6 +104,11 @@ The current polish pass verifies:
 - English docs: [Docs home](https://sunwood-ai-labs.github.io/pre-milk-workout/)
 - Japanese docs: [Japanese home](https://sunwood-ai-labs.github.io/pre-milk-workout/ja/)
 
+## Prompt Credits
+
+- `15ショットのプロンプトの実験とプロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043325327393595731](https://x.com/hAru_mAki_ch/status/2043325327393595731)
+- `キャラクターメイクの 着ぐるみバブバブ プロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043301363585819034](https://x.com/hAru_mAki_ch/status/2043301363585819034)
+
 ## 📝 License
 
 This repository is released under the [MIT License](./LICENSE).

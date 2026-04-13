@@ -102,6 +102,11 @@ features:
 
 タイトル画像だけの比較素材は [フォント比較](/ja/guide/font-comparison) に置いてあります。フル動画のレンダリングを行う前に、手軽にフォントの雰囲気を比較できます。
 
+## プロンプトクレジット
+
+- `15ショットのプロンプトの実験とプロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043325327393595731](https://x.com/hAru_mAki_ch/status/2043325327393595731)
+- `キャラクターメイクの 着ぐるみバブバブ プロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043301363585819034](https://x.com/hAru_mAki_ch/status/2043301363585819034)
+
 ## ドキュメントマップ
 
 - [はじめに](/ja/guide/getting-started): 環境構築、必須ファイル、初回プレビューの手順です。
