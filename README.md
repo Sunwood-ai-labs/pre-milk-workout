@@ -113,6 +113,30 @@ This repository is released under the [MIT License](./LICENSE).
 
 Title-only comparison stills for the `Bubble Parade` variant are also tracked in [FONT_COMPARISON.md](./FONT_COMPARISON.md) and in the docs guide at [docs/guide/font-comparison.md](./docs/guide/font-comparison.md).
 
+### Preview Gallery
+
+Candy Marquee Concept title:
+
+![Candy Marquee Concept Title](./docs/public/images/latest/07-candy-marquee-concept__title.jpg)
+
+Candy Marquee Concept credit:
+
+![Candy Marquee Concept Credit](./docs/public/images/latest/07-candy-marquee-concept__credit.jpg)
+
+Top font candidates:
+
+`Mochiy Pop One`
+
+![Mochiy Pop One Preview](./docs/public/images/font-comparison/03-mochiy-pop-one.jpg)
+
+`Mochiy Pop P One`
+
+![Mochiy Pop P One Preview](./docs/public/images/font-comparison/04-mochiy-pop-p-one.jpg)
+
+`Hachi Maru Pop`
+
+![Hachi Maru Pop Preview](./docs/public/images/font-comparison/02-hachi-maru-pop.jpg)
+
 | Font | Preview | Roundness | Notes |
 | --- | --- | --- | --- |
 | Current system | <img src="./docs/public/images/font-comparison/00-current-system.jpg" width="260" alt="Current system font comparison still" /> | Medium | Current baseline. Soft, but not especially thick. |
