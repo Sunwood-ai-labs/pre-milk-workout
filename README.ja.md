@@ -103,10 +103,10 @@ npm run render:all
 - 英語 docs: [Docs home](https://sunwood-ai-labs.github.io/pre-milk-workout/)
 - 日本語 docs: [Japanese home](https://sunwood-ai-labs.github.io/pre-milk-workout/ja/)
 
-## 🔗 プロンプトクレジット
+## 🔗 プロンプト出典
 
-- `15ショットのプロンプトの実験とプロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043325327393595731](https://x.com/hAru_mAki_ch/status/2043325327393595731)
-- `キャラクターメイクの 着ぐるみバブバブ プロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043301363585819034](https://x.com/hAru_mAki_ch/status/2043301363585819034)
+- 15ショットのプロンプト実験と使用プロンプト: [Xの投稿を見る](https://x.com/hAru_mAki_ch/status/2043325327393595731)
+- キャラクターメイク用「着ぐるみバブバブ」プロンプト: [Xの投稿を見る](https://x.com/hAru_mAki_ch/status/2043301363585819034)
 
 ## 📝 ライセンス
 

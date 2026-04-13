@@ -102,10 +102,10 @@ features:
 
 Title-only comparison stills live in [Font Comparison](/guide/font-comparison). This keeps font evaluation lightweight before committing to a full video render.
 
-## Prompt Credits
+## Prompt Sources
 
-- `15ショットのプロンプトの実験とプロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043325327393595731](https://x.com/hAru_mAki_ch/status/2043325327393595731)
-- `キャラクターメイクの 着ぐるみバブバブ プロンプトはこちら👇` [https://x.com/hAru_mAki_ch/status/2043301363585819034](https://x.com/hAru_mAki_ch/status/2043301363585819034)
+- 15-shot prompt experiments and prompt notes: [View the X post](https://x.com/hAru_mAki_ch/status/2043325327393595731)
+- Character-make `Kigurumi Babubabu` prompt: [View the X post](https://x.com/hAru_mAki_ch/status/2043301363585819034)
 
 ## Documentation map
 
