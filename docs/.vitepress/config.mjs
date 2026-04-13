@@ -41,6 +41,33 @@ export default defineConfig({
     logo: "/brand/pre-milk-workout-icon.svg",
     search: {
       provider: "local",
+      options: {
+        locales: {
+          ja: {
+            translations: {
+              button: {
+                buttonText: "検索",
+                buttonAriaLabel: "検索",
+              },
+              modal: {
+                displayDetails: "詳細を表示",
+                resetButtonTitle: "検索条件をリセット",
+                backButtonTitle: "検索を閉じる",
+                noResultsText: "該当する結果が見つかりません",
+                footer: {
+                  selectText: "選択",
+                  selectKeyAriaLabel: "Enter",
+                  navigateText: "移動",
+                  navigateUpKeyAriaLabel: "上矢印",
+                  navigateDownKeyAriaLabel: "下矢印",
+                  closeText: "閉じる",
+                  closeKeyAriaLabel: "Esc",
+                },
+              },
+            },
+          },
+        },
+      },
     },
     socialLinks: [{icon: "github", link: repoUrl}],
     footer: {
@@ -50,7 +77,7 @@ export default defineConfig({
   },
   locales: {
     root: {
-      label: "English",
+      label: "英語",
       lang: "en-US",
       themeConfig: {
         nav: [
@@ -74,15 +101,26 @@ export default defineConfig({
       themeConfig: {
         nav: [
           {text: "ガイド", link: "/ja/guide/getting-started"},
-          {text: "English", link: "/"},
+          {text: "英語", link: "/"},
           {text: "GitHub", link: repoUrl},
-          {text: "Site", link: pagesUrl},
+          {text: "サイト", link: pagesUrl},
         ],
         sidebar: japaneseSidebar,
         outlineTitle: "このページの内容",
+        darkModeSwitchLabel: "表示テーマ",
+        lightModeSwitchTitle: "ライトモードに切り替え",
+        darkModeSwitchTitle: "ダークモードに切り替え",
+        sidebarMenuLabel: "メニュー",
+        returnToTopLabel: "先頭へ戻る",
+        langMenuLabel: "言語を切り替え",
+        lastUpdatedText: "最終更新",
         docFooter: {
           prev: "前のページ",
           next: "次のページ",
+        },
+        footer: {
+          message: "MIT License のもとで公開しています。",
+          copyright: "Copyright © 2026 Sunwood-ai-labs",
         },
       },
     },

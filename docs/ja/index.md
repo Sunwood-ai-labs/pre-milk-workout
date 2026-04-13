@@ -3,109 +3,109 @@ layout: home
 
 hero:
   name: pre-milk-workout
-  text: Japanese guide for the Remotion pop-motion workflow
-  tagline: Seven composition variants, asset prep, and Windows-friendly render steps for this project.
+  text: "Remotion の pop-motion ワークフロー向け日本語ガイド"
+  tagline: "7 種類の構成バリエーション、アセット準備、Windows でも使いやすいレンダリング手順をまとめた日本語ページです。"
   image:
     src: /brand/pre-milk-workout-icon.svg
-    alt: pre-milk-workout icon
+    alt: "pre-milk-workout のアイコン"
   actions:
     - theme: brand
-      text: Getting Started
+      text: "はじめに"
       link: /ja/guide/getting-started
     - theme: alt
-      text: Workflow
+      text: "ワークフロー"
       link: /ja/guide/workflow
     - theme: alt
-      text: English
+      text: "英語"
       link: /
 
 features:
-  - title: Seven visual variants
-    details: Character sheet, milk bottle label, sticker album, storybook ribbon, toy catalog, bubble parade, and candy marquee concept are all available in one Remotion root.
-  - title: Asset prep before preview
-    details: The source video is synced into `public/` and composition metadata is regenerated before preview or render.
-  - title: Versioned render output
-    details: Stable folders under `renders/versions/` make visual iteration easy to compare.
+  - title: "7 種類のビジュアルバリエーション"
+    details: "キャラクターシート、ミルクボトルラベル、ステッカーアルバム、ストーリーブックリボン、おもちゃカタログ、バブルパレード、キャンディーマーキーコンセプトを 1 つの Remotion ルートで利用できます。"
+  - title: "プレビュー前のアセット準備"
+    details: "元動画を `public/` に同期し、プレビューやレンダリング前に構成メタデータを再生成します。"
+  - title: "バージョン付きレンダー出力"
+    details: "`renders/versions/` 配下の安定したフォルダ構成により、見た目の比較をしやすくしています。"
 ---
 
-## Preview Frames
+## プレビュー画像
 
 <div class="preview-grid">
   <figure class="preview-card">
-    <img src="/images/latest/01-character-sheet__title.jpg" alt="Character sheet title frame" />
-    <figcaption>Variant 01: Character sheet</figcaption>
+    <img src="/images/latest/01-character-sheet__title.jpg" alt="キャラクターシートのタイトルフレーム" />
+    <figcaption>バリエーション 01: キャラクターシート</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/02-milk-bottle-label__title.jpg" alt="Milk bottle label title frame" />
-    <figcaption>Variant 02: Milk bottle label</figcaption>
+    <img src="/images/latest/02-milk-bottle-label__title.jpg" alt="ミルクボトルラベルのタイトルフレーム" />
+    <figcaption>バリエーション 02: ミルクボトルラベル</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/03-sticker-album__title.jpg" alt="Sticker album title frame" />
-    <figcaption>Variant 03: Sticker album</figcaption>
+    <img src="/images/latest/03-sticker-album__title.jpg" alt="ステッカーアルバムのタイトルフレーム" />
+    <figcaption>バリエーション 03: ステッカーアルバム</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/04-storybook-ribbon__title.jpg" alt="Storybook ribbon title frame" />
-    <figcaption>Variant 04: Storybook ribbon</figcaption>
+    <img src="/images/latest/04-storybook-ribbon__title.jpg" alt="ストーリーブックリボンのタイトルフレーム" />
+    <figcaption>バリエーション 04: ストーリーブックリボン</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/05-toy-catalog__title.jpg" alt="Toy catalog title frame" />
-    <figcaption>Variant 05: Toy catalog</figcaption>
+    <img src="/images/latest/05-toy-catalog__title.jpg" alt="おもちゃカタログのタイトルフレーム" />
+    <figcaption>バリエーション 05: おもちゃカタログ</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/06-bubble-parade__title.jpg" alt="Bubble parade title frame" />
-    <figcaption>Variant 06: Bubble parade</figcaption>
+    <img src="/images/latest/06-bubble-parade__title.jpg" alt="バブルパレードのタイトルフレーム" />
+    <figcaption>バリエーション 06: バブルパレード</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/07-candy-marquee-concept__title.jpg" alt="Candy marquee concept title frame" />
-    <figcaption>Variant 07: Candy marquee concept</figcaption>
+    <img src="/images/latest/07-candy-marquee-concept__title.jpg" alt="キャンディーマーキーコンセプトのタイトルフレーム" />
+    <figcaption>バリエーション 07: キャンディーマーキーコンセプト</figcaption>
   </figure>
 </div>
 
-## Credit Frames
+## クレジット画像
 
 <div class="preview-grid">
   <figure class="preview-card">
-    <img src="/images/latest/01-character-sheet__credit.jpg" alt="Character sheet credit frame" />
-    <figcaption>Variant 01 credit</figcaption>
+    <img src="/images/latest/01-character-sheet__credit.jpg" alt="キャラクターシートのクレジットフレーム" />
+    <figcaption>バリエーション 01 クレジット</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/02-milk-bottle-label__credit.jpg" alt="Milk bottle label credit frame" />
-    <figcaption>Variant 02 credit</figcaption>
+    <img src="/images/latest/02-milk-bottle-label__credit.jpg" alt="ミルクボトルラベルのクレジットフレーム" />
+    <figcaption>バリエーション 02 クレジット</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/03-sticker-album__credit.jpg" alt="Sticker album credit frame" />
-    <figcaption>Variant 03 credit</figcaption>
+    <img src="/images/latest/03-sticker-album__credit.jpg" alt="ステッカーアルバムのクレジットフレーム" />
+    <figcaption>バリエーション 03 クレジット</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/04-storybook-ribbon__credit.jpg" alt="Storybook ribbon credit frame" />
-    <figcaption>Variant 04 credit</figcaption>
+    <img src="/images/latest/04-storybook-ribbon__credit.jpg" alt="ストーリーブックリボンのクレジットフレーム" />
+    <figcaption>バリエーション 04 クレジット</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/05-toy-catalog__credit.jpg" alt="Toy catalog credit frame" />
-    <figcaption>Variant 05 credit</figcaption>
+    <img src="/images/latest/05-toy-catalog__credit.jpg" alt="おもちゃカタログのクレジットフレーム" />
+    <figcaption>バリエーション 05 クレジット</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/06-bubble-parade__credit.jpg" alt="Bubble parade credit frame" />
-    <figcaption>Variant 06 credit</figcaption>
+    <img src="/images/latest/06-bubble-parade__credit.jpg" alt="バブルパレードのクレジットフレーム" />
+    <figcaption>バリエーション 06 クレジット</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/latest/07-candy-marquee-concept__credit.jpg" alt="Candy marquee concept credit frame" />
-    <figcaption>Variant 07 credit</figcaption>
+    <img src="/images/latest/07-candy-marquee-concept__credit.jpg" alt="キャンディーマーキーコンセプトのクレジットフレーム" />
+    <figcaption>バリエーション 07 クレジット</figcaption>
   </figure>
 </div>
 
 <div class="hero-callout">
-  The source video itself is not stored in the repository. Place <code>video.mp4</code> at the repository root before preview or render.
+  元動画そのものはリポジトリ内に保存されません。プレビューやレンダリングを行う前に、リポジトリ直下へ <code>video.mp4</code> を配置してください。
 </div>
 
-## Font Comparison
+## フォント比較
 
-Title-only comparison stills live in [Font Comparison](/ja/guide/font-comparison). This keeps font evaluation lightweight before committing to a full video render.
+タイトル画像だけの比較素材は [フォント比較](/ja/guide/font-comparison) に置いてあります。フル動画のレンダリングを行う前に、手軽にフォントの雰囲気を比較できます。
 
-## Documentation Map
+## ドキュメントマップ
 
-- [Getting Started](/ja/guide/getting-started): setup, required files, and first preview.
-- [Workflow](/ja/guide/workflow): composition IDs, render commands, and output conventions.
-- [Font Comparison](/ja/guide/font-comparison): title-thumbnail comparison table for rounded and heavier POP fonts.
-- [Architecture](/ja/guide/architecture): how the Remotion root, scripts, and generated metadata fit together.
-- [Troubleshooting](/ja/guide/troubleshooting): common setup and render issues.
+- [はじめに](/ja/guide/getting-started): 環境構築、必須ファイル、初回プレビューの手順です。
+- [ワークフロー](/ja/guide/workflow): 構成 ID、レンダーコマンド、出力ルールを確認できます。
+- [フォント比較](/ja/guide/font-comparison): 丸みと太さを重視した POP 系フォントのタイトルサムネイル比較表です。
+- [構成](/ja/guide/architecture): Remotion ルート、scripts、生成メタデータの関係を説明します。
+- [トラブルシュート](/ja/guide/troubleshooting): よくあるセットアップやレンダーの不具合を紹介します。
