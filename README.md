@@ -101,3 +101,16 @@ The current polish pass verifies:
 ## 📝 License
 
 This repository is released under the [MIT License](./LICENSE).
+
+## Font Comparison
+
+Title-only comparison stills for the `Bubble Parade` variant are also tracked in [FONT_COMPARISON.md](./FONT_COMPARISON.md) and in the docs guide at [docs/guide/font-comparison.md](./docs/guide/font-comparison.md).
+
+| Font | Preview | Roundness | Notes |
+| --- | --- | --- | --- |
+| Current system | <img src="./docs/public/images/font-comparison/00-current-system.jpg" width="260" alt="Current system font comparison still" /> | Medium | Current baseline. Soft, but not especially thick. |
+| Zen Maru Gothic Black | <img src="./docs/public/images/font-comparison/01-zen-maru-black.jpg" width="260" alt="Zen Maru Gothic Black font comparison still" /> | High | Clean and readable, but less marshmallow-like than the POP candidates. |
+| Hachi Maru Pop | <img src="./docs/public/images/font-comparison/02-hachi-maru-pop.jpg" width="260" alt="Hachi Maru Pop font comparison still" /> | Very high | Cute retro rounded tone with lighter visual weight. |
+| Mochiy Pop One | <img src="./docs/public/images/font-comparison/03-mochiy-pop-one.jpg" width="260" alt="Mochiy Pop One font comparison still" /> | Very high | Thickest and roundest option. Strongest POP energy. |
+| Mochiy Pop P One | <img src="./docs/public/images/font-comparison/04-mochiy-pop-p-one.jpg" width="260" alt="Mochiy Pop P One font comparison still" /> | Very high | Close to Mochiy Pop One, but a touch neater and sharper. |
+| Yusei Magic | <img src="./docs/public/images/font-comparison/05-yusei-magic.jpg" width="260" alt="Yusei Magic font comparison still" /> | Medium | Bold marker style. Thick, but less rounded. |

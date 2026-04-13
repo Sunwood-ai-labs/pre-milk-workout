@@ -90,9 +90,14 @@ features:
   The source video itself is not stored in the repository. Place <code>video.mp4</code> at the repository root before preview or render.
 </div>
 
+## Font Comparison
+
+Title-only comparison stills live in [Font Comparison](/ja/guide/font-comparison). This keeps font evaluation lightweight before committing to a full video render.
+
 ## Documentation Map
 
 - [Getting Started](/ja/guide/getting-started): setup, required files, and first preview.
 - [Workflow](/ja/guide/workflow): composition IDs, render commands, and output conventions.
+- [Font Comparison](/ja/guide/font-comparison): title-thumbnail comparison table for rounded and heavier POP fonts.
 - [Architecture](/ja/guide/architecture): how the Remotion root, scripts, and generated metadata fit together.
 - [Troubleshooting](/ja/guide/troubleshooting): common setup and render issues.
