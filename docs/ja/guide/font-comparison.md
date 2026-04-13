@@ -7,6 +7,13 @@ Title-only stills let us compare rounded and heavier POP fonts without paying th
 - Generator: `npm run render:font-compare -- font-compare-20260413 90`
 - Repo artifact: `FONT_COMPARISON.md`
 
+## Concept Preview Table
+
+| Variant | Title Preview | Credit Preview | Notes |
+| --- | --- | --- | --- |
+| `PreMilkWorkoutBubbleParade` | <img src="/images/latest/06-bubble-parade__title.jpg" width="320" alt="Bubble Parade title preview" /> | <img src="/images/latest/06-bubble-parade__credit.jpg" width="320" alt="Bubble Parade credit preview" /> | Current rounded-pop baseline. |
+| `PreMilkWorkoutCandyMarqueeConcept` | <img src="/images/latest/07-candy-marquee-concept__title.jpg" width="320" alt="Candy Marquee Concept title preview" /> | <img src="/images/latest/07-candy-marquee-concept__credit.jpg" width="320" alt="Candy Marquee Concept credit preview" /> | Stronger signboard-style concept with a candy marquee panel. |
+
 | Font | Preview | Roundness | Notes | GitHub |
 | --- | --- | --- | --- | --- |
 | Current system | <img src="/images/font-comparison/00-current-system.jpg" width="320" alt="Current system font comparison still" /> | Medium | Current baseline. Soft, but not especially thick. | System / existing fallback stack |

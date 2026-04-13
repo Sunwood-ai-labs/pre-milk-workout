@@ -137,6 +137,13 @@ Top font candidates:
 
 ![Hachi Maru Pop Preview](./docs/public/images/font-comparison/02-hachi-maru-pop.jpg)
 
+### Concept Preview Table
+
+| Variant | Title Preview | Credit Preview | Notes |
+| --- | --- | --- | --- |
+| `PreMilkWorkoutBubbleParade` | <img src="./docs/public/images/latest/06-bubble-parade__title.jpg" width="260" alt="Bubble Parade title preview" /> | <img src="./docs/public/images/latest/06-bubble-parade__credit.jpg" width="260" alt="Bubble Parade credit preview" /> | Current rounded-pop baseline. |
+| `PreMilkWorkoutCandyMarqueeConcept` | <img src="./docs/public/images/latest/07-candy-marquee-concept__title.jpg" width="260" alt="Candy Marquee Concept title preview" /> | <img src="./docs/public/images/latest/07-candy-marquee-concept__credit.jpg" width="260" alt="Candy Marquee Concept credit preview" /> | Stronger signboard-style concept with a candy marquee panel. |
+
 | Font | Preview | Roundness | Notes |
 | --- | --- | --- | --- |
 | Current system | <img src="./docs/public/images/font-comparison/00-current-system.jpg" width="260" alt="Current system font comparison still" /> | Medium | Current baseline. Soft, but not especially thick. |
