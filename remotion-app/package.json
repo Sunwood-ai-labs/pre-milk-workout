@@ -6,7 +6,8 @@
     "prepare:assets": "node ./scripts/prepare-assets.mjs",
     "preview": "npm run prepare:assets && node ./node_modules/@remotion/cli/remotion-cli.js studio ./src/index.jsx",
     "render": "npm run prepare:assets && node ./scripts/render-single.mjs PreMilkWorkoutPopMotion pre-milk-workout-pop-motion",
-    "render:all": "npm run prepare:assets && node ./scripts/render-all.mjs"
+    "render:all": "npm run prepare:assets && node ./scripts/render-all.mjs",
+    "generate:thumbs": "node ./scripts/generate-thumbs.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.441",

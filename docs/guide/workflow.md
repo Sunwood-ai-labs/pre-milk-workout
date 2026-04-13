@@ -34,6 +34,20 @@ Batch rendering:
 - writes MP4 outputs under `renders/versions/<versionTag>/`
 - emits a manifest file that records each composition ID and output path
 
+## Thumbnail generation
+
+```powershell
+cd D:\Prj\pre-milk-workout\remotion-app
+npm run generate:thumbs -- v20260413-134900-perchar-vivid
+```
+
+Thumbnail generation:
+
+- reads the render manifest from `renders/versions/<versionTag>/manifest.json`
+- writes title and credit JPGs under `renders/versions/<versionTag>/thumbs/`
+- copies the same JPGs into `docs/public/images/latest/` for documentation
+- emits `manifest.json` files for both the versioned thumbs folder and the docs-public folder
+
 ## Output expectations
 
 - `renders/` is intentionally ignored by Git

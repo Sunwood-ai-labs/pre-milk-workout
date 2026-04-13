@@ -1,0 +1,36 @@
+{
+  "versionTag": "v20260413-134900-perchar-vivid",
+  "generatedAtLocal": "2026-04-13T05:37:58.134Z",
+  "snapshots": [
+    {
+      "compositionId": "PreMilkWorkoutPopMotion",
+      "creditImage": "01-character-sheet__credit.jpg",
+      "slug": "01-character-sheet",
+      "titleImage": "01-character-sheet__title.jpg"
+    },
+    {
+      "compositionId": "PreMilkWorkoutBottleLabel",
+      "creditImage": "02-milk-bottle-label__credit.jpg",
+      "slug": "02-milk-bottle-label",
+      "titleImage": "02-milk-bottle-label__title.jpg"
+    },
+    {
+      "compositionId": "PreMilkWorkoutStickerAlbum",
+      "creditImage": "03-sticker-album__credit.jpg",
+      "slug": "03-sticker-album",
+      "titleImage": "03-sticker-album__title.jpg"
+    },
+    {
+      "compositionId": "PreMilkWorkoutStorybookRibbon",
+      "creditImage": "04-storybook-ribbon__credit.jpg",
+      "slug": "04-storybook-ribbon",
+      "titleImage": "04-storybook-ribbon__title.jpg"
+    },
+    {
+      "compositionId": "PreMilkWorkoutToyCatalog",
+      "creditImage": "05-toy-catalog__credit.jpg",
+      "slug": "05-toy-catalog",
+      "titleImage": "05-toy-catalog__title.jpg"
+    }
+  ]
+}

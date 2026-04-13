@@ -34,6 +34,20 @@ npm run render:all
 - `renders/versions/<versionTag>/` に MP4 を出力する
 - composition ID と出力パスを manifest に残す
 
+## サムネイル生成
+
+```powershell
+cd D:\Prj\pre-milk-workout\remotion-app
+npm run generate:thumbs -- v20260413-134900-perchar-vivid
+```
+
+この処理で次を行います。
+
+- `renders/versions/<versionTag>/manifest.json` を読み込む
+- `renders/versions/<versionTag>/thumbs/` に title / credit JPG を出力する
+- docs 用に同じ JPG を `docs/public/images/latest/` にコピーする
+- version 側と docs 側の両方に manifest を書く
+
 ## 出力の考え方
 
 - `renders/` はルートで Git ignore

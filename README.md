@@ -18,7 +18,7 @@
     |
     <a href="https://github.com/Sunwood-ai-labs/pre-milk-workout">Repository</a>
   </p>
-  <img src="./docs/public/images/title-01.jpg" width="900" alt="Preview frame from the pre-milk-workout Remotion project" />
+  <img src="./docs/public/images/latest/01-character-sheet__title.jpg" width="900" alt="Latest title preview frame from the pre-milk-workout Remotion project" />
 </div>
 
 ## ✨ Overview
@@ -60,6 +60,20 @@ npm run render:all
 | `PreMilkWorkoutStickerAlbum` | Sticker album | `03-sticker-album` |
 | `PreMilkWorkoutStorybookRibbon` | Storybook ribbon | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | Toy catalog | `05-toy-catalog` |
+
+## 🖼️ Latest Preview Assets
+
+Latest documented preview set:
+
+- version tag: `v20260413-134900-perchar-vivid`
+- render outputs: `renders/versions/v20260413-134900-perchar-vivid/`
+- generated thumbs: `renders/versions/v20260413-134900-perchar-vivid/thumbs/`
+- docs-published thumbs: `docs/public/images/latest/`
+
+Each variant now has both:
+
+- `__title.jpg`: title frame around `00:00:03`
+- `__credit.jpg`: credit frame around `00:00:51`
 
 More previews and setup notes live in the published docs: [sunwood-ai-labs.github.io/pre-milk-workout](https://sunwood-ai-labs.github.io/pre-milk-workout/).
 

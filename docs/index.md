@@ -32,24 +32,49 @@ features:
 
 <div class="preview-grid">
   <figure class="preview-card">
-    <img src="/images/title-01.jpg" alt="Character sheet title frame" />
+    <img src="/images/latest/01-character-sheet__title.jpg" alt="Character sheet title frame" />
     <figcaption>Variant 01: Character sheet</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/title-02.jpg" alt="Milk bottle label title frame" />
+    <img src="/images/latest/02-milk-bottle-label__title.jpg" alt="Milk bottle label title frame" />
     <figcaption>Variant 02: Milk bottle label</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/title-03.jpg" alt="Sticker album title frame" />
+    <img src="/images/latest/03-sticker-album__title.jpg" alt="Sticker album title frame" />
     <figcaption>Variant 03: Sticker album</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/title-04.jpg" alt="Storybook ribbon title frame" />
+    <img src="/images/latest/04-storybook-ribbon__title.jpg" alt="Storybook ribbon title frame" />
     <figcaption>Variant 04: Storybook ribbon</figcaption>
   </figure>
   <figure class="preview-card">
-    <img src="/images/title-05.jpg" alt="Toy catalog title frame" />
+    <img src="/images/latest/05-toy-catalog__title.jpg" alt="Toy catalog title frame" />
     <figcaption>Variant 05: Toy catalog</figcaption>
+  </figure>
+</div>
+
+## Credit frames
+
+<div class="preview-grid">
+  <figure class="preview-card">
+    <img src="/images/latest/01-character-sheet__credit.jpg" alt="Character sheet credit frame" />
+    <figcaption>Variant 01 credit</figcaption>
+  </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/02-milk-bottle-label__credit.jpg" alt="Milk bottle label credit frame" />
+    <figcaption>Variant 02 credit</figcaption>
+  </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/03-sticker-album__credit.jpg" alt="Sticker album credit frame" />
+    <figcaption>Variant 03 credit</figcaption>
+  </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/04-storybook-ribbon__credit.jpg" alt="Storybook ribbon credit frame" />
+    <figcaption>Variant 04 credit</figcaption>
+  </figure>
+  <figure class="preview-card">
+    <img src="/images/latest/05-toy-catalog__credit.jpg" alt="Toy catalog credit frame" />
+    <figcaption>Variant 05 credit</figcaption>
   </figure>
 </div>
 

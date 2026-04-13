@@ -18,7 +18,7 @@
     ·
     <a href="https://github.com/Sunwood-ai-labs/pre-milk-workout">Repository</a>
   </p>
-  <img src="./docs/public/images/title-01.jpg" width="900" alt="pre-milk-workout preview frame" />
+  <img src="./docs/public/images/latest/01-character-sheet__title.jpg" width="900" alt="pre-milk-workout 最新タイトルプレビュー" />
 </div>
 
 ## ✨ 概要
@@ -60,6 +60,20 @@ npm run render:all
 | `PreMilkWorkoutStickerAlbum` | Sticker album | `03-sticker-album` |
 | `PreMilkWorkoutStorybookRibbon` | Storybook ribbon | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | Toy catalog | `05-toy-catalog` |
+
+## 🖼️ 最新サムネイル
+
+現在 docs で参照している最新サムネイルセット:
+
+- 版タグ: `v20260413-134900-perchar-vivid`
+- render 出力: `renders/versions/v20260413-134900-perchar-vivid/`
+- 生成サムネイル: `renders/versions/v20260413-134900-perchar-vivid/thumbs/`
+- docs 公開用サムネイル: `docs/public/images/latest/`
+
+各バリエーションごとに次の 2 種類を生成しています。
+
+- `__title.jpg`: `00:00:03` 前後のタイトル画像
+- `__credit.jpg`: `00:00:51` 前後のクレジット画像
 
 詳細なプレビューと手順は公開 docs にまとめています: [sunwood-ai-labs.github.io/pre-milk-workout](https://sunwood-ai-labs.github.io/pre-milk-workout/).
 
