@@ -596,6 +596,21 @@ const CreditBoard = ({endMs, startMs, theme, videoMetadata}) => {
     ...section,
     accent: theme.credit.sectionAccents[index % theme.credit.sectionAccents.length],
   }));
+  const creditBackdropStyle = theme.credit.backdrop
+    ? {
+        backdropFilter: theme.credit.backdrop.backdropBlur
+          ? `blur(${theme.credit.backdrop.backdropBlur}px)`
+          : undefined,
+        background: theme.credit.backdrop.background,
+        border: theme.credit.backdrop.border,
+        borderRadius: theme.credit.backdrop.borderRadius,
+        boxShadow: theme.credit.backdrop.shadow,
+        padding: theme.credit.backdrop.padding,
+        width: theme.credit.backdrop.fitContent ? "fit-content" : "100%",
+      }
+    : {
+        width: "100%",
+      };
 
   return (
     <AbsoluteFill style={{pointerEvents: "none"}}>
@@ -610,16 +625,17 @@ const CreditBoard = ({endMs, startMs, theme, videoMetadata}) => {
           ...anchorY,
         }}
       >
-        <div
-          style={{
-            ...headingAlign,
-            display: "flex",
-            flexDirection: "column",
-            gap: 6,
-            marginBottom: theme.credit.headingGap,
-            width: "100%",
-          }}
-        >
+        <div style={creditBackdropStyle}>
+          <div
+            style={{
+              ...headingAlign,
+              display: "flex",
+              flexDirection: "column",
+              gap: 6,
+              marginBottom: theme.credit.headingGap,
+              width: "100%",
+            }}
+          >
           <div
             style={{
               color: theme.credit.eyebrowColor,
@@ -646,25 +662,26 @@ const CreditBoard = ({endMs, startMs, theme, videoMetadata}) => {
           >
             {MOTION_TITLE.main}
           </div>
+          <div
+            style={{
+              display: "grid",
+              gap: theme.credit.gridGap,
+              gridTemplateColumns:
+                theme.credit.layout === "stack" || compact
+                  ? "minmax(0, 1fr)"
+                  : "repeat(2, minmax(0, 1fr))",
+            }}
+          >
+            {sections.map((section) => (
+              <CreditSection
+                compact={compact}
+                key={section.title}
+                section={section}
+                theme={theme}
+              />
+            ))}
+          </div>
         </div>
-        <div
-          style={{
-            display: "grid",
-            gap: theme.credit.gridGap,
-            gridTemplateColumns:
-              theme.credit.layout === "stack" || compact
-                ? "minmax(0, 1fr)"
-                : "repeat(2, minmax(0, 1fr))",
-          }}
-        >
-          {sections.map((section) => (
-            <CreditSection
-              compact={compact}
-              key={section.title}
-              section={section}
-              theme={theme}
-            />
-          ))}
         </div>
       </div>
     </AbsoluteFill>
