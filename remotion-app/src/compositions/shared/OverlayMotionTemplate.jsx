@@ -107,6 +107,18 @@ const getFontFamily = (fontKey) => {
   return FONT_DISPLAY_POP;
 };
 
+const getJustifyContent = (align) => {
+  if (align === "left") {
+    return "flex-start";
+  }
+
+  if (align === "right") {
+    return "flex-end";
+  }
+
+  return "center";
+};
+
 const TitleAccent = ({theme}) => {
   if (theme.title.decoration === "none") {
     return null;
@@ -367,6 +379,7 @@ const TitleCard = ({endMs, startMs, theme, videoMetadata}) => {
           color: theme.title.fill,
           WebkitTextStroke: `${theme.title.strokeWidth}px ${theme.title.outlineColor}`,
         };
+  const titleCharacters = Array.from(MOTION_TITLE.main);
 
   return (
     <AbsoluteFill style={{pointerEvents: "none"}}>
@@ -398,21 +411,57 @@ const TitleCard = ({endMs, startMs, theme, videoMetadata}) => {
             {theme.title.kicker}
           </div>
         ) : null}
-        <div
-          style={{
-            fontFamily: getFontFamily(theme.title.font),
-            fontSize: titleSize,
-            fontWeight: theme.title.fontWeight,
-            letterSpacing: theme.title.letterSpacing,
-            lineHeight: 1.08,
-            textShadow: theme.title.shadow,
-            whiteSpace: "pre-wrap",
-            wordBreak: "keep-all",
-            ...titleTextStyle,
-          }}
-        >
-          {MOTION_TITLE.main}
-        </div>
+        {theme.title.fillMode === "per-character" ? (
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              fontFamily: getFontFamily(theme.title.font),
+              fontSize: titleSize,
+              fontWeight: theme.title.fontWeight,
+              justifyContent: getJustifyContent(theme.title.align),
+              lineHeight: 1.08,
+              maxWidth: "100%",
+              whiteSpace: "pre-wrap",
+              wordBreak: "keep-all",
+              width: "100%",
+            }}
+          >
+            {titleCharacters.map((character, index) => {
+              const palette = theme.title.characterPalette ?? theme.title.decorationColors;
+              const color = palette[index % palette.length];
+              return (
+                <span
+                  key={`${character}-${index}`}
+                  style={{
+                    WebkitTextStroke: `${theme.title.strokeWidth}px ${theme.title.outlineColor}`,
+                    color,
+                    marginRight: theme.title.characterGap ?? 0,
+                    textShadow: theme.title.shadow,
+                  }}
+                >
+                  {character === " " ? "\u00A0" : character}
+                </span>
+              );
+            })}
+          </div>
+        ) : (
+          <div
+            style={{
+              fontFamily: getFontFamily(theme.title.font),
+              fontSize: titleSize,
+              fontWeight: theme.title.fontWeight,
+              letterSpacing: theme.title.letterSpacing,
+              lineHeight: 1.08,
+              textShadow: theme.title.shadow,
+              whiteSpace: "pre-wrap",
+              wordBreak: "keep-all",
+              ...titleTextStyle,
+            }}
+          >
+            {MOTION_TITLE.main}
+          </div>
+        )}
         <div
           style={{
             color: theme.title.subtitleColor,
