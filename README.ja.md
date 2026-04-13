@@ -23,7 +23,7 @@
 
 ## ✨ 概要
 
-`pre-milk-workout` は、元動画の上にポップモーションのタイトルやクレジットを重ねるための Remotion プロジェクトです。現在は 5 種類のビジュアルバリエーション、元動画同期用の asset 準備スクリプト、単体 render と一括 render の両方に対応したスクリプトを含んでいます。
+`pre-milk-workout` は、元動画の上にポップモーションのタイトルやクレジットを重ねるための Remotion プロジェクトです。現在は 7 種類のビジュアルバリエーション、元動画同期用の asset 準備スクリプト、単体 render と一括 render の両方に対応したスクリプトを含んでいます。
 
 ## 🚀 クイックスタート
 
@@ -71,11 +71,16 @@ npm run render:all
 - render 出力: `renders/versions/v20260413-154900-bubble-parade-v3/`
 - 生成サムネイル: `renders/versions/v20260413-154900-bubble-parade-v3/thumbs/`
 - docs 公開用サムネイル: `docs/public/images/latest/`
+- concept still tag: `v20260413-173100-candy-marquee`
 
 各バリエーションごとに次の 2 種類を生成しています。
 
 - `__title.jpg`: `00:00:03` 前後のタイトル画像
 - `__credit.jpg`: `00:00:51` 前後のクレジット画像
+Latest docs set also includes:
+
+- `07-candy-marquee-concept__title.jpg`
+- `07-candy-marquee-concept__credit.jpg`
 
 詳細なプレビューと手順は公開 docs にまとめています: [sunwood-ai-labs.github.io/pre-milk-workout](https://sunwood-ai-labs.github.io/pre-milk-workout/).
 
