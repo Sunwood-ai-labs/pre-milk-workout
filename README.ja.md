@@ -61,6 +61,7 @@ npm run render:all
 | `PreMilkWorkoutStorybookRibbon` | Storybook ribbon | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | Toy catalog | `05-toy-catalog` |
 | `PreMilkWorkoutBubbleParade` | Bubble parade | `06-bubble-parade` |
+| `PreMilkWorkoutCandyMarqueeConcept` | Candy marquee concept | `07-candy-marquee-concept` |
 
 ## 🖼️ 最新サムネイル
 

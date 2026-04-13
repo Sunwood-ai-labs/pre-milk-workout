@@ -23,7 +23,7 @@
 
 ## ✨ Overview
 
-`pre-milk-workout` packages a small Remotion workspace for building playful title and credit overlays on top of a source performance video. The project currently ships six visual variants, asset-prep scripts for syncing the source video into the app, and render scripts for both single-output and versioned batch rendering.
+`pre-milk-workout` packages a small Remotion workspace for building playful title and credit overlays on top of a source performance video. The project currently ships seven visual variants, asset-prep scripts for syncing the source video into the app, and render scripts for both single-output and versioned batch rendering.
 
 ## 🚀 Quick Start
 
@@ -61,6 +61,7 @@ npm run render:all
 | `PreMilkWorkoutStorybookRibbon` | Storybook ribbon | `04-storybook-ribbon` |
 | `PreMilkWorkoutToyCatalog` | Toy catalog | `05-toy-catalog` |
 | `PreMilkWorkoutBubbleParade` | Bubble parade | `06-bubble-parade` |
+| `PreMilkWorkoutCandyMarqueeConcept` | Candy marquee concept | `07-candy-marquee-concept` |
 
 ## 🖼️ Latest Preview Assets
 
@@ -70,11 +71,17 @@ Latest documented preview set:
 - render outputs: `renders/versions/v20260413-154900-bubble-parade-v3/`
 - generated thumbs: `renders/versions/v20260413-154900-bubble-parade-v3/`
 - docs-published thumbs: `docs/public/images/latest/`
+- concept still tag: `v20260413-173100-candy-marquee`
 
 Each variant now has both:
 
 - `__title.jpg`: title frame around `00:00:03`
 - `__credit.jpg`: credit frame around `00:00:51`
+
+The latest docs-published set also includes the separate concept stills:
+
+- `07-candy-marquee-concept__title.jpg`
+- `07-candy-marquee-concept__credit.jpg`
 
 More previews and setup notes live in the published docs: [sunwood-ai-labs.github.io/pre-milk-workout](https://sunwood-ai-labs.github.io/pre-milk-workout/).
 
